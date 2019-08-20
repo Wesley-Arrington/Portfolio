@@ -1,0 +1,47 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.project-image-div {
+    width: 1000px;
+    object-fit: fill;
+}
+
+.project-image {
+    /* height: 400px; */
+    /* width: 400px; */
+    border: 1px solid lightgray;
+}
+
+.project-link-button {
+    color: #DD5D67;
+    border: 2px solid #DD5D67;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    transition: background-color 0.1s, color 0.1s;
+}
+
+.project-link-button:hover {
+    color: white;
+    background-color: #DD5D67;
+}
+
+.project-right-side {
+    margin-left: 20px;
+}
+
+.project-title {
+    margin-bottom: 10px;
+}
+
+.project-technologies {
+    margin-top: 8px;
+}

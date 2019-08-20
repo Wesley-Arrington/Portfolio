@@ -1,0 +1,52 @@
+.header {
+    background-image: url("../images/park.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    font-family: 'Mukta';
+    /* background-color: rgba(240, 140, 140, 0.5); */
+}
+
+.header-color {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: RGBA(210, 77, 87, 0.80);
+}
+
+.header-name {
+    font-size: 75px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.header-name-desc {
+    color: white;
+    text-align: center;
+}
+
+.header-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+}
+
+.header-work-button {
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    transition: background-color 0.1s, color 0.1s;
+}
+
+.header-work-button:hover {
+    color: RGB(210, 77, 87);
+    background-color: white;
+}
