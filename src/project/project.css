@@ -6,24 +6,34 @@
     padding: 60px;
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .project-image-div {
-    width: 1000px;
+    width: 40%;
     object-fit: fill;
 }
 
 .project-image {
     /* height: 400px; */
-    /* width: 400px; */
-    border: 1px solid lightgray;
+    width: 400px;
+    /* border: 1px solid lightgray; */
+}
+
+.button-container-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .project-link-button {
-    color: #DD5D67;
-    border: 2px solid #DD5D67;
-    padding: 10px 20px;
-    margin-top: 20px;
+    color: rgb(196, 86, 90);
+    border: 2px solid rgb(196, 86, 90);
+    padding: 10px 30px;
+    margin-top: 60px;
     margin-right: 20px;
     border-radius: 10px;
     transition: background-color 0.1s, color 0.1s;
@@ -31,17 +41,33 @@
 
 .project-link-button:hover {
     color: white;
-    background-color: #DD5D67;
+    background-color: rgb(196, 86, 90);
 }
 
 .project-right-side {
     margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
 }
 
 .project-title {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 15px;
+}
+
+.project-text-container-div {
+    width: 80%;
+}
+
+.project-description {
+    color: rgb(50, 50, 50);
+    font-size: 20px;
 }
 
 .project-technologies {
+    color: rgb(30, 30, 30);
     margin-top: 8px;
 }
