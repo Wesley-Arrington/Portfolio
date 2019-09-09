@@ -1,3 +1,53 @@
+/* :target {
+    display: block;    
+    position: relative;
+    top: -100px;
+    margin-top: 100px;
+    margin-bottom: -100px;
+} */
+
+/* :target::before {
+    content: '';
+    display: block;
+    height:      180px;
+    top: -100px;
+} */
+
+/* a[id]::before {
+    content: '';
+    display: block;
+    height: 100px;
+    margin: -300px;
+} */
+
+#WEB {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
+#iOS {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
+#about {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
+#contact {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
 .portfolio-header {
     display: flex;
     flex-direction: column;
@@ -24,3 +74,10 @@
 .portfolio-header-info {
     font-family: 'Roboto';
 }
+
+/* .portfolio-header-link-div {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+} */

@@ -26,7 +26,7 @@ export default class NavBar extends Component {
             document.documentElement.scrollHeight -
             document.documentElement.clientHeight
 
-        const scrolled = winScroll / height
+        const scrolled = (winScroll / height)
 
         this.setState({
             windowPos: scrolled,

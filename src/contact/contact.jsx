@@ -4,7 +4,8 @@ import './contact.css'
 export default class Contact extends Component {
     render() {
         return (
-            <div className="contact" id="contact">
+            <div className="contact">
+                <div id="contact"></div>
                 <div className="contact-content-container">
                     <h1 className="contact-title">OK, LET’S CREATE SOMETHING GREAT</h1>
                     <h3>If you like my work and have some cool 
