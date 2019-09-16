@@ -3,12 +3,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: center;
+    justify-items: center;
     padding: 60px;
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
     width: 100%;
     padding-left: 0px;
     padding-right: 0px;
+    padding-top: 30px;
 }
 
 .project-image-div {
@@ -33,7 +36,7 @@
     color: rgb(196, 86, 90);
     border: 2px solid rgb(196, 86, 90);
     padding: 10px 30px;
-    margin-top: 60px;
+    margin-top: 40px;
     margin-right: 20px;
     border-radius: 10px;
     transition: background-color 0.1s, color 0.1s;
@@ -56,10 +59,13 @@
     margin-bottom: 20px;
     border-bottom: 1px solid lightgray;
     padding-bottom: 15px;
+    /* width: 40%; */
 }
 
 .project-text-container-div {
-    width: 80%;
+    width: 60%;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .project-description {
@@ -70,4 +76,44 @@
 .project-technologies {
     color: rgb(30, 30, 30);
     margin-top: 8px;
+}
+
+.project-simple {
+    display: flex;
+    flex-direction: row;
+}
+
+.desc-image-div {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 20px;
+    /* flex-direction: column; */
+}
+
+@media only screen and (max-width: 1075px) {
+    .project-simple {
+        flex-direction: column-reverse;
+        /* align-content: center;
+        justify-content: center;
+        justify-items: center; */
+        align-items: center;
+        
+    }
+
+    .desc-image-div {
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .project-image-div {
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .project-title {
+        display: flex;
+        justify-content: center;
+    }
 }

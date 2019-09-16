@@ -34,3 +34,13 @@
     color: RGB(210, 77, 87);
     background-color: white;
 }
+
+@media only screen and (max-width: 700px) { 
+
+    .contact-title {
+        font-size: 35px;
+    }
+    .contact-content-container {
+        width: 600px;
+    }
+}
